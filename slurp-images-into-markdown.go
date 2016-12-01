@@ -45,7 +45,7 @@ func resizePng(f string, size *int, output string) {
 	// and preserve aspect ratio
 	m := resize.Resize(uint(*size), 0, img, resize.Lanczos3)
 
-	fmt.Println("Writing: ", output)
+	// fmt.Println("Writing: ", output)
 	out, err := os.Create(output)
 	if err != nil {
 		log.Fatal(err)
@@ -80,5 +80,5 @@ func main() {
 	} else {
 		fmt.Println("Use -format: " + formatUsage)
 	}
-	fmt.Println("Done")
+	// fmt.Println("Done")
 }
