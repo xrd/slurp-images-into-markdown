@@ -75,8 +75,10 @@ func main() {
 				copy(f, output)
 			}
 			// Print out the files
-			fmt.Printf( "## %d\n\n[](%v)\n\n", index, short )
+			fmt.Printf( "## %d\n\n![](%v)\n\n", index, short )
 		}
+
+		fmt.Println( "Created using *[slurp-images-into-markdown](https://github.com/xrd/slurp-images-into-markdown)*" )
 	} else {
 		fmt.Println("Use -format: " + formatUsage)
 	}

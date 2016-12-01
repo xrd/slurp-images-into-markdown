@@ -15,7 +15,10 @@ $ slurp-images-into-markdown --convert --format ~/Desktop/Screen\ Shot\ 2016-12-
 
 ## 2
 ...
+$ slurp-images-into-markdown --convert --format ~/Desktop/Screen\ Shot\ 2016-12-01 > explanation.md
 ```
+
+Then, edit the `explanation.md` file and add headers and descriptions of the images inline.
 
 Full usage:
 
